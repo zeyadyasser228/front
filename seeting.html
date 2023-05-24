@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- mtnsa4 fe al 2a5r t3ml msa7a l7d 2aflt al html -->
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- render all elements in all explorer -->
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <!-- fint awesome lib -->
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <!-- main file css -->
+    <link rel="stylesheet" href="css/main.css"/>
+    <!-- my frame work -->
+    <link rel="stylesheet" href="css/framework.css"/>
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;900&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+    <title>temlpate 4</title>
+    <!-- my icon -->
+    <link rel="icon" href="images/logo1.png"/>
+</head>
+<body>
+    <!-- ul sbta le kol al elements 34an at7rk le ay file -->
+    <div class="page flex">
+        <div class="sidebar">
+            <h2 class="p-relative text-center mt-0">Omar</h2>
+            <ul>
+                <li>                  <a href="dashboard.html">  <i class="fa-solid fa-chart-gantt"></i>     <span>Dashboard</span>  </a>  </li>
+                <li  class="active">  <a href="seeting.html">    <i class="fa-solid fa-gear"></i>            <span>Setting</span>    </a>  </li>
+                <li>                  <a href="profile.html">    <i class="fa-solid fa-user"></i>            <span>profile</span>    </a>  </li>
+                <li>                  <a href="projects.html">   <i class="fa-solid fa-diagram-project"></i> <span>Projects</span>   </a>  </li>
+                <li>                  <a href="courses.html">    <i class="fa-solid fa-graduation-cap"></i>  <span>Courses</span>    </a>  </li>
+                <li>                  <a href="friends.html">    <i class="fa-solid fa-user-group"></i>      <span>Friends</span>    </a>  </li>
+                <li>                  <a href="files.html">      <i class="fa-regular fa-file"></i>          <span>Files</span>      </a>  </li>
+                <li>                  <a href="plans.html">      <i class="fa-regular fa-credit-card"></i>   <span>Plans</span>      </a>  </li>
+            </ul>
+        </div>
+        <!-- start dashboard content -->
+        <div class="seeting container">
+            <div class="header s-flex">
+                <div class="one flex">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Type A Keyword">
+                </div>
+                <div class="two flex">
+                    <i class="fa-regular fa-bell"></i>
+                    <img src="images/avatar.png" alt="" class="rad50">
+                </div>
+            </div>
+            <h1 class=" main-title p-relative">Seeting</h1>
+            <div class="seeting-box box grid500">
+                <div class="site-control br-10 p-20 w-color">
+                    <div class="box-title"><h3 class="ft-23">Site Control</h3><p class="ft-14 grey">Control The Website If There Is Maintenance</p></div>
+                    <div class="s-flex mt-20">
+                        <div class="text">Website Control <p class="mt-5 grey ft-13">Open/Close Website And Type The Reason</p></div>
+                        <label>
+                            <input type="checkbox" class="toggle-checkbox" checked>
+                            <div class="toggle-switch"></div>
+                        </label>
+                    </div>
+                    <textarea placeholder="close message content"></textarea>
+                </div>
+                <div class="info br-10 p-20 w-color">
+                    <div class="box-title"><h3 class="ft-23">Site Control</h3><p class="ft-14 grey">Control The Website If There Is Maintenance</p></div>
+                    <div class="info-text mb-20">
+                        <label for="first" class="d-block">First Name</label>
+                        <input type="text" id="first" placeholder="first name">
+                    </div>
+                    <div class="info-text mb-20">
+                        <label for="sec" class="d-block">sec Name</label>
+                        <input type="text" id="first" placeholder="sec name">
+                    </div>
+                    <div class="s-flex">
+                        <div class="info-text mb-20 " style="flex: 1;">
+                            <label for="email" class="d-block"> email</label>
+                            <input type="email" id="first" placeholder="omarkhaledfayez123@gmail.com" disabled>
+                        </div>
+                        <div class="button-shape c-flex ft-16" style="color: #0075ff; padding: 0 10px; font-weight: bold;">change</div>
+                    </div>
+                </div>
+                <div class="security br-10 p-20 w-color">
+                    <div class="box-title"><h3 class="ft-23">Site Security</h3><p class="ft-14 grey">Security Information About Your Account</p></div>
+                    <div class="s-flex mt-20">
+                        <div class="text">Website Control <p class="mt-5 grey ft-13">Open/Close Website And Type The Reason</p></div>
+                        <div class="button-shape c-flex" style="background-color: #0075ff; height: fit-content;">Change</div>
+                    </div>
+                    <div class="s-flex mt-20">
+                        <div class="text">Website Control <p class="mt-5 grey ft-13">Open/Close Website And Type The Reason</p></div>
+                        <label>
+                            <input type="checkbox" class="toggle-checkbox" checked>
+                            <div class="toggle-switch"></div>
+                        </label>
+                    </div>
+                    <div class="s-flex mt-20">
+                        <div class="text">Website Control <p class="mt-5 grey ft-13">Open/Close Website And Type The Reason</p></div>
+                        <div class="button-shape c-flex" style="color: black; background-color: #eee; height: fit-content;">Change</div>
+                    </div>
+                </div>
+                <div class="social-seeting br-10 p-20 w-color">
+                    <div class="box-title"><h3 class="ft-23">Social Info</h3><p class="ft-14 grey">Social Media Information</p></div>
+                    <div class="box-social c-flex ">
+                        <i class="fa-brands fa-twitter"></i>
+                        <input type="text" placeholder="Twitter Username">
+                    </div>
+                    <div class="box-social c-flex ">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <input type="text" placeholder="Facebook Username">
+                    </div>
+                    <div class="box-social c-flex ">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <input type="text" placeholder="Linkedin Username">
+                    </div>
+                    <div class="box-social c-flex ">
+                        <i class="fa-brands fa-youtube"></i>
+                        <input type="text" placeholder="Youtube Username">
+                    </div>
+                </div>
+                <div class="widgets br-10 p-20 w-color">
+                    <div class="box-title"><h3 class="ft-23">Widgets Control</h3><p class="ft-14 grey">Show/Hide Widgets</p></div>
+                <div class="box-wid">
+                    <input type="checkbox" id="one" checked>
+                    <label for="one">Quick Draft </label>
+                </div>
+                <div class="box-wid">
+                    <input type="checkbox" id="one" checked>
+                    <label for="one">Yearly Targets </label>
+                </div>
+                <div class="box-wid">
+                    <input type="checkbox" id="one" checked>
+                    <label for="one">Tickets Statistics </label>
+                </div>
+                <div class="box-wid">
+                    <input type="checkbox" id="one" checked>
+                    <label for="one">Latest News </label>
+                </div>
+                <div class="box-wid">
+                    <input type="checkbox" id="one" >
+                    <label for="one">Latest Tasks </label>
+                </div>
+                <div class="box-wid">
+                    <input type="checkbox" id="one" checked>
+                    <label for="one">Top Search Items </label>
+                </div>
+                </div>
+                <div class="bakeup br-10 p-20 w-color">
+                    <div class="box-title"><h3 class="ft-23">Backup Manager</h3><p class="ft-14 grey">Control Backup Time And Location</p></div>
+                    <div class="box-bakeup p-relative">
+                        <input type="radio" name="bakeup" id="daily" checked>
+                        <div class="empity"></div>
+                        <label for="daily">Daily</label>
+                    </div>
+                    <div class="box-bakeup p-relative">
+                        <input type="radio" name="bakeup" id="Weekly">
+                        <div class="empity"></div>
+                        <label for="Weekly">Weekly</label>
+                    </div>
+                    <div class="box-bakeup p-relative">
+                        <input type="radio" name="bakeup" id="Monthly">
+                        <div class="empity"></div>
+                        <label for="Monthly">Monthly</label>
+                    </div>
+                    <div class="select c-flex">
+                        <div class="box-server p-relative">
+                            <input type="radio" name="select" id="">
+                            <div class="section">
+                                <i class="fa-solid fa-server"></i>
+                                <p>Megaman</p>
+                            </div>
+                        </div>
+                        <div class="box-server p-relative m10-0">
+                            <input type="radio" name="select" id="" checked>
+                            <div class="section">
+                                <i class="fa-solid fa-server"></i>
+                                <p>Zero</p>
+                            </div>
+                        </div>
+                        <div class="box-server p-relative">
+                            <input type="radio" name="select" id="">
+                            <div class="section">
+                                <i class="fa-solid fa-server"></i>
+                                <p>Sigma</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
